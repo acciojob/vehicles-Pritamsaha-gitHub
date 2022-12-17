@@ -7,7 +7,7 @@ public class Vehicle {
     int currentDirection;
 
     public Vehicle() {
-        this.name=name;
+        super();
         this.currentSpeed=0;
         this.currentDirection=0;
     }
