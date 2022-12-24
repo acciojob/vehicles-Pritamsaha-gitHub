@@ -3,6 +3,9 @@ package com.driver;
 public class Boat implements WaterVehicle{
     String name;
     int capacity;
+    public Boat(){
+
+    }
     public Boat(String name,int capacity) {
         this.name=name;
         this.capacity=capacity;
