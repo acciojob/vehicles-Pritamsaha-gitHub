@@ -9,7 +9,6 @@ public class Car extends Vehicle {
     private int currentGear;
     private int seats;
     //this name is made
-    public String name;
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
@@ -63,9 +62,5 @@ public class Car extends Vehicle {
         return seats;
     }
 
-    @Override
-    public String getName() {
-        return name;
-    }
 }
 
