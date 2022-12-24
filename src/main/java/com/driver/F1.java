@@ -1,7 +1,7 @@
 package com.driver;
 
 public class F1 extends Car {
-String name;
+//String name;
 boolean isManual;
     public F1(String name, boolean isManual) {
         super(name,4,2,5,isManual,"car",2);
